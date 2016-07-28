@@ -1,0 +1,7 @@
+@import '../../../../theme/variables.scss';
+
+.GridPage {
+  @include container-spacings();
+  @include container-relative();
+  @include container-large();
+}

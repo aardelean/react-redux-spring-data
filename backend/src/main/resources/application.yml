@@ -1,0 +1,11 @@
+server:
+  port: 9502
+spring:
+  datasource:
+    driver-class-name:  com.mysql.jdbc.Driver
+    password: password
+    username: root
+    url:  jdbc:mysql://localhost:3306/home
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    platform: mysql
+
